@@ -206,6 +206,7 @@ pub use {
         // need to import this afterwards so that the SubscriptionItemPriceDataRecurring
         // isn't silently ignored
         subscription::*,
+        subscription::SubscriptionProrationBehavior,
         subscription::PlanInterval as SubscriptionInterval,
         subscription::SubscriptionItemPriceDataRecurring as SubscriptionPriceDataRecurring,
         subscription::SubscriptionItemPriceData as SubscriptionPriceData,
